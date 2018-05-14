@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class enemyScript : MonoBehaviour {
-	float range = 7f;    
     void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.name == "Player")
@@ -13,6 +12,6 @@ public class enemyScript : MonoBehaviour {
     }
 
     void Start (){
-		transform.position = new Vector3(Random.Range(-range, range), 20f, 0.12f); 
+		transform.position = new Vector3(Random.Range(-8.2f, 7.7f), 20f, 0.12f); 
     }
 }

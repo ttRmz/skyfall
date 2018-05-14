@@ -6,7 +6,7 @@ public class enemyDestroy : MonoBehaviour {
     
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Enemy(Clone)")
+        if (col.gameObject.tag == "Enemy")
         {
             Destroy(col.gameObject);
         }
