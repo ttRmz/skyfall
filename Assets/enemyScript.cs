@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class enemyScript : MonoBehaviour {
-	public float range = 7f;    
+	float range = 7f;    
     void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.name == "Player")
