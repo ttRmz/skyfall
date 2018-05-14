@@ -173,7 +173,6 @@ GameObject:
   - component: {fileID: 102121982}
   - component: {fileID: 102121981}
   - component: {fileID: 102121984}
-  - component: {fileID: 102121983}
   m_Layer: 0
   m_Name: Plate
   m_TagString: Untagged
@@ -271,18 +270,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &102121983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 102121976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 882b41995d5274559b1a93b4046a261d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
 --- !u!114 &102121984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1270,7 +1257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 30}
+  m_AnchoredPosition: {x: 0, y: 35}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408931427
@@ -1284,8 +1271,8 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Material: {fileID: 2100000, guid: a5a98effd80bb46dd98f442e3a101568, type: 3}
+  m_Color: {r: 0.9960785, g: 0.8313726, b: 0.50980395, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1293,7 +1280,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 51cc8aa1371384f1185ea9e4a4215b0b, type: 3}
+    m_Font: {fileID: 12800000, guid: a5a98effd80bb46dd98f442e3a101568, type: 3}
     m_FontSize: 45
     m_FontStyle: 1
     m_BestFit: 0
@@ -1454,7 +1441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078279c9a8c454319bb955ed97aae49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 0}
+  txtscore: {fileID: 1408931427}
 --- !u!4 &1915255258 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4332046728141442, guid: 1db8601c97565c84084b5b490940fae6,
