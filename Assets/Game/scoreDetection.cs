@@ -25,7 +25,7 @@ public class scoreDetection : MonoBehaviour {
 			GameObject.Find("Canvas").GetComponent<canvasScript>().MajScore(score);
         }
         if(isAlive == false){
-            GameObject.Find("Canvas").GetComponent<canvasScript>().youreDead("You are dead");
+            GameObject.Find("Canvas").GetComponent<canvasScript>().youreDead("You are dead. press 'r' to retry");
         }
     }
 }
