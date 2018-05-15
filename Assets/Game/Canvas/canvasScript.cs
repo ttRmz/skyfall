@@ -9,4 +9,10 @@ public class canvasScript : MonoBehaviour {
 	public void MajScore (int sc) {
 		txtscore.text = sc.ToString();
 	}
+
+    public Text youDead;
+    public void youreDead( string mess){
+        youDead.text = mess;
+    }
+
 }
