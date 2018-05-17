@@ -2,7 +2,7 @@
 
 ### Demo
 
-![demo : (https://media.giphy.com/media/SKyqy3yGr6ibqJbR89/giphy.gif)](https://media.giphy.com/media/SKyqy3yGr6ibqJbR89/giphy.gif)
+![Demo](https://i.imgur.com/rYNFVrW.gif)
 
 ### Controls
 
